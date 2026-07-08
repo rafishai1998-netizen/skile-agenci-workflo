@@ -1,1 +1,37 @@
-{"name": "skile-agenci-workflo", "version": "1.0.0", "description": "Central repository for imported skills, agents, prompts, and marketing assets with normalization and validation", "type": "module", "main": "index.js", "scripts": {"validate": "node scripts/validate-skills.js", "deduplicate": "node scripts/deduplicate-content.js", "normalize": "node scripts/normalize-metadata.js", "lint": "npm run validate && npm run normalize", "build": "npm run lint", "test": "npm run validate"}, "keywords": ["skills", "agents", "prompts", "claude", "ai", "workflow"], "author": "rafishai1998-netizen", "license": "MIT", "repository": {"type": "git", "url": "https://github.com/rafishai1998-netizen/skile-agenci-workflo.git"}, "engines": {"node": ">=18.0.0"}, "devDependencies": {"yaml": "^2.3.4", "front-matter": "^4.0.2"}}
+{
+  "name": "skile-agenci-workflo",
+  "version": "1.0.0",
+  "description": "Central repository for imported skills, agents, prompts, and marketing assets with normalization and validation",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "validate": "node scripts/validate-skills.js",
+    "deduplicate": "node scripts/deduplicate-content.js",
+    "deduplicate:apply": "node scripts/deduplicate-content.js --apply",
+    "normalize": "node scripts/normalize-metadata.js",
+    "lint": "npm run validate && npm run normalize",
+    "build": "npm run lint",
+    "test": "npm run validate"
+  },
+  "keywords": [
+    "skills",
+    "agents",
+    "prompts",
+    "claude",
+    "ai",
+    "workflow"
+  ],
+  "author": "rafishai1998-netizen",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rafishai1998-netizen/skile-agenci-workflo.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "front-matter": "^4.0.2",
+    "yaml": "^2.3.4"
+  }
+}
