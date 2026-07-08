@@ -2,7 +2,11 @@
 
 /**
  * Deduplicate Content Across Skills Repository
- * Identifies and removes exact duplicate files across sources
+ *
+ * Safe behavior:
+ * - Default mode is dry-run/report only.
+ * - Real deletion requires explicit --apply.
+ * - This script scans sources/ only and never edits files outside sources/.
  */
 
 import fs from 'fs';
@@ -15,7 +19,8 @@ const __dirname = path.dirname(__filename);
 
 const REPO_ROOT = path.join(__dirname, '..');
 const SOURCES_DIR = path.join(REPO_ROOT, 'sources');
-const DRY_RUN = process.argv.includes('--dry-run');
+const APPLY = process.argv.includes('--apply');
+const DRY_RUN = !APPLY;
 
 function calculateHash(filePath) {
   try {
@@ -60,14 +65,19 @@ function findDuplicates(fileMap) {
 }
 
 function removeDuplicate(filePath) {
+  const fullPath = path.join(SOURCES_DIR, filePath);
+
+  if (!fullPath.startsWith(SOURCES_DIR + path.sep)) {
+    console.error(`   ❌ Refusing to touch path outside sources/: ${filePath}`);
+    return false;
+  }
+
+  if (DRY_RUN) {
+    console.log(`   [DRY-RUN] Would delete: ${filePath}`);
+    return true;
+  }
+
   try {
-    const fullPath = path.join(SOURCES_DIR, filePath);
-
-    if (DRY_RUN) {
-      console.log(`   [DRY-RUN] Would delete: ${filePath}`);
-      return true;
-    }
-
     fs.unlinkSync(fullPath);
     console.log(`   ✅ Deleted: ${filePath}`);
 
@@ -91,7 +101,14 @@ function removeDuplicate(filePath) {
 }
 
 function main() {
-  console.log('🔍 Scanning for duplicate files...\n');
+  console.log('🔍 Scanning for duplicate files...');
+  console.log(DRY_RUN ? 'Mode: dry-run/report only. Use --apply to delete.\n' : 'Mode: APPLY. Duplicate copies may be deleted.\n');
+
+  if (!fs.existsSync(SOURCES_DIR)) {
+    console.error('❌ sources/ directory not found. Aborting.');
+    process.exitCode = 1;
+    return;
+  }
 
   const fileMap = collectFiles(SOURCES_DIR);
   const duplicates = findDuplicates(fileMap);
@@ -103,30 +120,31 @@ function main() {
 
   console.log(`Found ${duplicates.length} groups of duplicate files:\n`);
 
-  let totalDuplicatesRemoved = 0;
-  let totalBytesFreed = 0;
+  let totalDuplicateCopies = 0;
+  let totalBytesAffected = 0;
 
   duplicates.forEach((files, index) => {
     console.log(`📋 Duplicate Group ${index + 1} (${files.length} copies, ${files[0].size} bytes each):`);
+    console.log(`   Keeping: ${files[0].path}`);
 
     files.slice(1).forEach(file => {
       if (removeDuplicate(file.path)) {
-        totalDuplicatesRemoved++;
-        totalBytesFreed += file.size;
+        totalDuplicateCopies++;
+        totalBytesAffected += file.size;
       }
     });
 
     console.log();
   });
 
-  const sizeInMB = (totalBytesFreed / 1024 / 1024).toFixed(2);
-  console.log(`\n📊 Summary:`);
-  console.log(`   Duplicate files removed: ${totalDuplicatesRemoved}`);
-  console.log(`   Space freed: ${sizeInMB} MB`);
+  const sizeInMB = (totalBytesAffected / 1024 / 1024).toFixed(2);
+  console.log('\n📊 Summary:');
+  console.log(`   Duplicate copies ${DRY_RUN ? 'identified' : 'removed'}: ${totalDuplicateCopies}`);
+  console.log(`   Space ${DRY_RUN ? 'potentially freed' : 'freed'}: ${sizeInMB} MB`);
 
   if (DRY_RUN) {
-    console.log('\n   ℹ️  Dry-run mode: No files were actually deleted');
-    console.log('   Run with: npm run deduplicate (without --dry-run) to actually remove files');
+    console.log('\n   ℹ️  Dry-run mode: no files were deleted.');
+    console.log('   To apply deletion intentionally, run: node scripts/deduplicate-content.js --apply');
   }
 }
 
