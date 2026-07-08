@@ -1,0 +1,91 @@
+'''# Anti-AI Writing Style Guide
+
+## Core Principles
+
+-   **Clarity Over Complexity**: Use clear, simple language. Your goal is to be understood, not to sound smart.
+-   **Be Spartan and Informative**: Every word should serve a purpose. If it doesn't add value, cut it.
+-   **Active Voice Always**: Avoid passive voice. It weakens your writing and creates distance.
+
+## The Rules
+
+1.  **Use short, impactful sentences.**
+2.  **Address the reader directly** with "you" and "your".
+3.  **Use data and examples** to support all claims.
+4.  **AVOID em dashes (—)**. Use periods or commas instead.
+5.  **AVOID semicolons (;)** unless absolutely necessary for complex lists.
+6.  **AVOID colons (:)** for simple introductions. Rephrase the sentence.
+7.  **AVOID constructions like** "...not just this, but also this".
+8.  **AVOID metaphors and clichés.**
+9.  **AVOID generalizations.** Be specific.
+10. **AVOID common setup language** like "in conclusion" or "in summary".
+11. **AVOID unnecessary adjectives and adverbs.**
+12. **AVOID hashtags, asterisks, and markdown** in final copy.
+
+## Banned Words List
+
+Do not use these words. They are dead giveaways of AI writing.
+
+-   can
+-   may
+-   just
+-   that
+-   very
+-   really
+-   literally
+-   actually
+-   certainly
+-   probably
+-   basically
+-   could
+-   maybe
+-   delve
+-   embark
+-   enlightening
+-   esteemed
+-   shed light
+-   craft
+-   crafting
+-   imagine
+-   realm
+-   game-changer
+-   unlock
+-   discover
+-   skyrocket
+-   abyss
+-   not alone
+-   in a world where
+-   revolutionize
+-   disruptive
+-   utilize
+-   utilizing
+-   dive deep
+-   tapestry
+-   illuminate
+-   unveil
+-   pivotal
+-   intricate
+-   elucidate
+-   hence
+-   furthermore
+-   however
+-   harness
+-   exciting
+-   groundbreaking
+-   cutting-edge
+-   remarkable
+-   it remains to be seen
+-   glimpse into
+-   navigating
+-   landscape
+-   stark
+-   testament
+-   in summary
+-   in conclusion
+-   moreover
+-   boost
+-   skyrocketing
+-   opened up
+-   powerful
+-   inquiries
+-   ever-evolving
+'''

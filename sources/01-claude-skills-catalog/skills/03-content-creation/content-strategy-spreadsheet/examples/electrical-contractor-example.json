@@ -1,0 +1,695 @@
+{
+  "brand_name": "ProWire Electric",
+  "subtitle": "Content Strategy for Residential Electrical Lead Generation",
+  "opportunity": "Homeowners searching for electrical services represent high-intent buyers with average project values of $500-5,000. Most competitors have weak content, creating opportunity to dominate local search with educational content that builds trust before the service call.",
+
+  "funnel": [
+    {
+      "stage": "AWARENESS",
+      "goal": "Attract homeowners researching electrical issues",
+      "content": "Educational guides, safety information, DIY vs pro comparisons",
+      "cta": "Download Home Electrical Safety Checklist"
+    },
+    {
+      "stage": "CONSIDERATION",
+      "goal": "Position as trusted local expert",
+      "content": "Cost guides, comparison content, project galleries",
+      "cta": "Get Free Estimate"
+    },
+    {
+      "stage": "DECISION",
+      "goal": "Convert to booked service calls",
+      "content": "Service pages, testimonials, guarantees, financing options",
+      "cta": "Book Service Call"
+    }
+  ],
+
+  "audiences": [
+    {
+      "name": "Emergency Fixers",
+      "percentage": "35%",
+      "description": "Homeowners with urgent electrical problems needing immediate help",
+      "content_needs": "Fast answers, pricing transparency, availability info"
+    },
+    {
+      "name": "Project Planners",
+      "percentage": "40%",
+      "description": "Homeowners planning upgrades, renovations, or improvements",
+      "content_needs": "Cost guides, project timelines, design inspiration"
+    },
+    {
+      "name": "Safety Seekers",
+      "percentage": "25%",
+      "description": "Concerned homeowners wanting inspections or peace of mind",
+      "content_needs": "Safety information, warning signs, inspection details"
+    }
+  ],
+
+  "pillars": [
+    {
+      "name": "Electrical Safety",
+      "topics": "Warning signs, inspections, code compliance, child safety",
+      "product": "Safety Inspections",
+      "conversion": "Free safety inspection offer"
+    },
+    {
+      "name": "Home Electrical Upgrades",
+      "topics": "Panel upgrades, EV chargers, smart home, lighting",
+      "product": "Upgrade Services",
+      "conversion": "Free upgrade consultation"
+    },
+    {
+      "name": "Electrical Repairs",
+      "topics": "Outlets, switches, breakers, wiring issues",
+      "product": "Repair Services",
+      "conversion": "Same-day service booking"
+    },
+    {
+      "name": "Cost & Planning",
+      "topics": "Pricing guides, permits, timelines, hiring tips",
+      "product": "All Services",
+      "conversion": "Free estimate request"
+    }
+  ],
+
+  "profiles": [
+    {
+      "name": "Emergency Fixer",
+      "percentage": "35%",
+      "description": "Homeowner experiencing an electrical problem right now. Outlets not working, breaker keeps tripping, lights flickering. Needs help fast but worried about getting ripped off by emergency pricing.",
+      "demographics": "Age 30-60 | Homeowner | All income levels | Urban/Suburban",
+      "pain_points": [
+        "Electrical problem causing immediate disruption",
+        "Worried about safety risk to family",
+        "Fear of being overcharged for emergency service",
+        "Unable to diagnose if this is serious or simple",
+        "Past bad experiences with contractors"
+      ],
+      "motivations": [
+        "Get power/safety restored quickly",
+        "Find trustworthy electrician who won't upsell",
+        "Understand what's wrong before committing",
+        "Get fair pricing for emergency work"
+      ],
+      "objections": [
+        "Emergency rates are always inflated",
+        "How do I know this company is legitimate?",
+        "Will they try to sell me things I don't need?",
+        "Can I trust online reviews?"
+      ],
+      "psychographic_factors": [
+        {"factor": "Risk Tolerance", "score": 2, "notes": "Low tolerance for safety risks, wants proven solution"},
+        {"factor": "Educational Investment", "score": 2, "notes": "Wants quick answers, not deep education"},
+        {"factor": "Available Resources", "score": 4, "notes": "Will pay for quality emergency service"},
+        {"factor": "Self-Direction", "score": 2, "notes": "Needs expert guidance now"},
+        {"factor": "Time Availability", "score": 1, "notes": "Urgent situation, no time to research"},
+        {"factor": "Patience Level", "score": 1, "notes": "Needs immediate response"},
+        {"factor": "Technical Comfort", "score": 2, "notes": "Not comfortable with electrical DIY"},
+        {"factor": "Decision Speed", "score": 5, "notes": "Will decide quickly once trust established"}
+      ],
+      "authority_hook": "Response time guarantees, real-time availability, verified reviews with response times"
+    },
+    {
+      "name": "Project Planner",
+      "percentage": "40%",
+      "description": "Homeowner planning an electrical upgrade or renovation project. Researching costs, timelines, and finding the right contractor. Has time to make a good decision and wants to understand the process.",
+      "demographics": "Age 35-55 | Homeowner 5+ years | Income $75K+ | Suburban",
+      "pain_points": [
+        "Unclear what electrical work their project requires",
+        "Don't know realistic budget for electrical portion",
+        "Worried about hiring wrong contractor",
+        "Confused about permits and inspections",
+        "Previous projects went over budget or timeline"
+      ],
+      "motivations": [
+        "Complete renovation/upgrade successfully",
+        "Stay within budget with no surprises",
+        "Find reliable contractor they can trust",
+        "Understand process before committing",
+        "Add value to home with quality work"
+      ],
+      "objections": [
+        "How do I know this estimate is accurate?",
+        "What if they find more problems once they start?",
+        "Are permits really necessary for this project?",
+        "Why is there such variance in contractor quotes?"
+      ],
+      "psychographic_factors": [
+        {"factor": "Risk Tolerance", "score": 3, "notes": "Willing to invest but wants predictability"},
+        {"factor": "Educational Investment", "score": 5, "notes": "Researches extensively before deciding"},
+        {"factor": "Available Resources", "score": 4, "notes": "Has budget for quality work"},
+        {"factor": "Self-Direction", "score": 4, "notes": "Wants to understand before hiring"},
+        {"factor": "Time Availability", "score": 4, "notes": "Planning ahead, not urgent"},
+        {"factor": "Patience Level", "score": 4, "notes": "Willing to wait for right contractor"},
+        {"factor": "Technical Comfort", "score": 3, "notes": "Can understand concepts but not DIY"},
+        {"factor": "Decision Speed", "score": 2, "notes": "Takes time to compare options"}
+      ],
+      "authority_hook": "Detailed cost breakdowns, project galleries with budgets, client testimonials mentioning accuracy"
+    },
+    {
+      "name": "Safety Seeker",
+      "percentage": "25%",
+      "description": "Homeowner concerned about electrical safety. May have older home, noticed warning signs, or just wants peace of mind. Looking for inspection or evaluation rather than immediate repair.",
+      "demographics": "Age 40-65 | Homeowner 10+ years | Older home | Family with children",
+      "pain_points": [
+        "Worried old wiring could cause fire",
+        "Noticed warning signs but unsure if serious",
+        "Don't know what electrical inspection involves",
+        "Fear of discovering expensive problems",
+        "Unsure if concerns are legitimate or paranoia"
+      ],
+      "motivations": [
+        "Protect family from electrical hazards",
+        "Peace of mind about home safety",
+        "Understand condition of electrical system",
+        "Prevent problems before they become emergencies",
+        "Make informed decisions about upgrades"
+      ],
+      "objections": [
+        "Will inspection just be sales pitch for repairs?",
+        "Is my concern even legitimate?",
+        "How do I know inspector is qualified?",
+        "What if they find problems I can't afford to fix?"
+      ],
+      "psychographic_factors": [
+        {"factor": "Risk Tolerance", "score": 1, "notes": "Very risk averse regarding safety"},
+        {"factor": "Educational Investment", "score": 4, "notes": "Wants to understand risks and options"},
+        {"factor": "Available Resources", "score": 3, "notes": "Has some budget but concerned about costs"},
+        {"factor": "Self-Direction", "score": 3, "notes": "Wants guidance but also understanding"},
+        {"factor": "Time Availability", "score": 3, "notes": "Not urgent but wants resolution"},
+        {"factor": "Patience Level", "score": 4, "notes": "Willing to plan proper approach"},
+        {"factor": "Technical Comfort", "score": 2, "notes": "Limited electrical knowledge"},
+        {"factor": "Decision Speed", "score": 3, "notes": "Moderate, needs information first"}
+      ],
+      "authority_hook": "Certifications, inspection process transparency, no-pressure evaluation approach"
+    }
+  ],
+
+  "content_sections": [
+    {
+      "name": "Electrical Safety Hub",
+      "volume": "8,500+",
+      "description": "Educational content about home electrical safety, warning signs, and when to call a professional",
+      "items": [
+        {
+          "type": "Pillar",
+          "title": "Complete Guide to Home Electrical Safety",
+          "url": "/electrical-safety-guide",
+          "primary_keyword": "home electrical safety",
+          "secondary_keywords": "electrical safety tips, home electrical hazards, electrical fire prevention",
+          "est_volume": 2400,
+          "topical_volume": "8.5K+",
+          "stage": "Awareness",
+          "profile": "Safety Seeker"
+        },
+        {
+          "type": "Supporting",
+          "title": "10 Warning Signs of Electrical Problems",
+          "url": "/electrical-warning-signs",
+          "primary_keyword": "signs of electrical problems",
+          "secondary_keywords": "electrical warning signs, electrical issues in house",
+          "est_volume": 1900,
+          "topical_volume": "",
+          "stage": "Awareness",
+          "profile": "Safety Seeker"
+        },
+        {
+          "type": "Supporting",
+          "title": "When to Call an Electrician vs DIY",
+          "url": "/when-to-call-electrician",
+          "primary_keyword": "when to call electrician",
+          "secondary_keywords": "do I need an electrician, electrician vs DIY",
+          "est_volume": 1600,
+          "topical_volume": "",
+          "stage": "Consideration",
+          "profile": "Emergency Fixer"
+        },
+        {
+          "type": "Supporting",
+          "title": "Electrical Inspection: What to Expect",
+          "url": "/electrical-inspection-guide",
+          "primary_keyword": "electrical inspection",
+          "secondary_keywords": "home electrical inspection, what does electrical inspection include",
+          "est_volume": 1400,
+          "topical_volume": "",
+          "stage": "Consideration",
+          "profile": "Safety Seeker"
+        },
+        {
+          "type": "Supporting",
+          "title": "Old House Electrical: Safety Concerns",
+          "url": "/old-house-electrical-safety",
+          "primary_keyword": "old house electrical",
+          "secondary_keywords": "old home wiring, knob and tube wiring, aluminum wiring",
+          "est_volume": 1200,
+          "topical_volume": "",
+          "stage": "Awareness",
+          "profile": "Safety Seeker"
+        }
+      ]
+    },
+    {
+      "name": "Electrical Upgrades Hub",
+      "volume": "12,000+",
+      "description": "Content for homeowners planning electrical upgrades, from panel replacements to EV chargers",
+      "items": [
+        {
+          "type": "Pillar",
+          "title": "Home Electrical Upgrade Guide",
+          "url": "/electrical-upgrade-guide",
+          "primary_keyword": "electrical upgrade",
+          "secondary_keywords": "home electrical upgrade, electrical system upgrade",
+          "est_volume": 2100,
+          "topical_volume": "12K+",
+          "stage": "Awareness",
+          "profile": "Project Planner"
+        },
+        {
+          "type": "Supporting",
+          "title": "Electrical Panel Upgrade Cost Guide",
+          "url": "/panel-upgrade-cost",
+          "primary_keyword": "electrical panel upgrade cost",
+          "secondary_keywords": "200 amp panel upgrade cost, breaker panel replacement cost",
+          "est_volume": 3200,
+          "topical_volume": "",
+          "stage": "Consideration",
+          "profile": "Project Planner"
+        },
+        {
+          "type": "Supporting",
+          "title": "EV Charger Installation Guide",
+          "url": "/ev-charger-installation",
+          "primary_keyword": "ev charger installation",
+          "secondary_keywords": "home ev charger installation, level 2 charger installation",
+          "est_volume": 2800,
+          "topical_volume": "",
+          "stage": "Consideration",
+          "profile": "Project Planner"
+        },
+        {
+          "type": "Supporting",
+          "title": "Whole House Surge Protection",
+          "url": "/whole-house-surge-protection",
+          "primary_keyword": "whole house surge protector",
+          "secondary_keywords": "whole home surge protection, panel surge protector",
+          "est_volume": 1800,
+          "topical_volume": "",
+          "stage": "Awareness",
+          "profile": "Safety Seeker"
+        },
+        {
+          "type": "Supporting",
+          "title": "Generator Installation and Sizing",
+          "url": "/generator-installation",
+          "primary_keyword": "whole house generator installation",
+          "secondary_keywords": "standby generator installation, generator sizing",
+          "est_volume": 2100,
+          "topical_volume": "",
+          "stage": "Consideration",
+          "profile": "Project Planner"
+        }
+      ]
+    },
+    {
+      "name": "Electrical Repairs Hub",
+      "volume": "15,000+",
+      "description": "Content for homeowners with electrical problems needing repair guidance and service",
+      "items": [
+        {
+          "type": "Pillar",
+          "title": "Common Electrical Problems and Solutions",
+          "url": "/electrical-problems",
+          "primary_keyword": "electrical problems",
+          "secondary_keywords": "common electrical problems, house electrical issues",
+          "est_volume": 3400,
+          "topical_volume": "15K+",
+          "stage": "Awareness",
+          "profile": "Emergency Fixer"
+        },
+        {
+          "type": "Supporting",
+          "title": "Circuit Breaker Keeps Tripping: Causes and Fixes",
+          "url": "/circuit-breaker-tripping",
+          "primary_keyword": "circuit breaker keeps tripping",
+          "secondary_keywords": "breaker tripping repeatedly, why does my breaker keep tripping",
+          "est_volume": 4200,
+          "topical_volume": "",
+          "stage": "Awareness",
+          "profile": "Emergency Fixer"
+        },
+        {
+          "type": "Supporting",
+          "title": "Outlet Not Working: Troubleshooting Guide",
+          "url": "/outlet-not-working",
+          "primary_keyword": "outlet not working",
+          "secondary_keywords": "dead outlet, electrical outlet stopped working",
+          "est_volume": 3800,
+          "topical_volume": "",
+          "stage": "Awareness",
+          "profile": "Emergency Fixer"
+        },
+        {
+          "type": "Supporting",
+          "title": "Flickering Lights: What It Means",
+          "url": "/flickering-lights",
+          "primary_keyword": "flickering lights",
+          "secondary_keywords": "lights flickering in house, why are my lights flickering",
+          "est_volume": 2900,
+          "topical_volume": "",
+          "stage": "Awareness",
+          "profile": "Emergency Fixer"
+        },
+        {
+          "type": "Supporting",
+          "title": "Burning Smell from Outlet: What to Do",
+          "url": "/burning-smell-outlet",
+          "primary_keyword": "burning smell from outlet",
+          "secondary_keywords": "electrical burning smell, outlet smells like burning",
+          "est_volume": 720,
+          "topical_volume": "",
+          "stage": "Awareness",
+          "profile": "Emergency Fixer"
+        }
+      ]
+    },
+    {
+      "name": "Cost & Hiring Hub",
+      "volume": "9,500+",
+      "description": "Pricing guides and contractor hiring information for informed decision making",
+      "items": [
+        {
+          "type": "Pillar",
+          "title": "Electrician Cost Guide: What to Expect",
+          "url": "/electrician-cost-guide",
+          "primary_keyword": "electrician cost",
+          "secondary_keywords": "how much does electrician charge, electrician hourly rate",
+          "est_volume": 4100,
+          "topical_volume": "9.5K+",
+          "stage": "Consideration",
+          "profile": "Project Planner"
+        },
+        {
+          "type": "Supporting",
+          "title": "How to Hire an Electrician",
+          "url": "/how-to-hire-electrician",
+          "primary_keyword": "how to hire electrician",
+          "secondary_keywords": "find electrician, choosing electrician",
+          "est_volume": 1400,
+          "topical_volume": "",
+          "stage": "Consideration",
+          "profile": "Project Planner"
+        },
+        {
+          "type": "Supporting",
+          "title": "Electrical Permit Requirements",
+          "url": "/electrical-permit-guide",
+          "primary_keyword": "electrical permit",
+          "secondary_keywords": "do I need electrical permit, electrical work permit",
+          "est_volume": 2200,
+          "topical_volume": "",
+          "stage": "Consideration",
+          "profile": "Project Planner"
+        },
+        {
+          "type": "Research",
+          "title": "Electrical Service Pricing Survey [City]",
+          "url": "/electrical-pricing-survey",
+          "primary_keyword": "electrician prices [city]",
+          "secondary_keywords": "electrical costs [city], local electrician rates",
+          "est_volume": 880,
+          "topical_volume": "",
+          "stage": "Consideration",
+          "profile": "Project Planner"
+        },
+        {
+          "type": "Comparison",
+          "title": "Licensed vs Unlicensed Electrician: Risks",
+          "url": "/licensed-vs-unlicensed-electrician",
+          "primary_keyword": "licensed electrician",
+          "secondary_keywords": "unlicensed electrician risks, licensed vs unlicensed contractor",
+          "est_volume": 920,
+          "topical_volume": "",
+          "stage": "Consideration",
+          "profile": "Safety Seeker"
+        }
+      ]
+    }
+  ],
+
+  "tools": [
+    {
+      "type": "Calculator",
+      "name": "Electrical Project Cost Calculator",
+      "url": "/electrical-cost-calculator",
+      "primary_keyword": "electrical work cost calculator",
+      "volume": 1200,
+      "stage": "Consideration",
+      "target_profile": "Project Planner",
+      "purpose": "Estimate costs for common electrical projects based on scope and location"
+    },
+    {
+      "type": "Assessment",
+      "name": "Home Electrical Safety Assessment",
+      "url": "/electrical-safety-assessment",
+      "primary_keyword": "electrical safety checklist",
+      "volume": 880,
+      "stage": "Awareness",
+      "target_profile": "Safety Seeker",
+      "purpose": "Help homeowners identify potential electrical hazards in their home"
+    },
+    {
+      "type": "Quiz",
+      "name": "Do I Need a Panel Upgrade?",
+      "url": "/panel-upgrade-quiz",
+      "primary_keyword": "do I need panel upgrade",
+      "volume": 720,
+      "stage": "Awareness",
+      "target_profile": "Project Planner",
+      "purpose": "Determine if electrical panel upgrade is needed based on symptoms and usage"
+    },
+    {
+      "type": "Calculator",
+      "name": "EV Charger Installation Calculator",
+      "url": "/ev-charger-calculator",
+      "primary_keyword": "ev charger installation cost",
+      "volume": 1400,
+      "stage": "Consideration",
+      "target_profile": "Project Planner",
+      "purpose": "Estimate EV charger installation costs based on panel capacity and distance"
+    }
+  ],
+
+  "ebooks": [
+    {
+      "type": "Checklist",
+      "title": "Home Electrical Safety Checklist",
+      "url": "/electrical-safety-checklist-download",
+      "related_articles": "Complete Guide to Home Electrical Safety, 10 Warning Signs",
+      "primary_keyword": "electrical safety checklist",
+      "volume": 480,
+      "target_profile": "Safety Seeker",
+      "lead_magnet_for": "Electrical Safety Hub pillar"
+    },
+    {
+      "type": "Guide",
+      "title": "Homeowner's Guide to Electrical Upgrades",
+      "url": "/electrical-upgrade-ebook",
+      "related_articles": "Home Electrical Upgrade Guide, Panel Upgrade Cost Guide",
+      "primary_keyword": "electrical upgrade guide",
+      "volume": 320,
+      "target_profile": "Project Planner",
+      "lead_magnet_for": "Electrical Upgrades Hub"
+    },
+    {
+      "type": "Checklist",
+      "title": "Electrician Hiring Checklist",
+      "url": "/hiring-electrician-checklist",
+      "related_articles": "How to Hire an Electrician, Electrician Cost Guide",
+      "primary_keyword": "hiring electrician checklist",
+      "volume": 210,
+      "target_profile": "Project Planner",
+      "lead_magnet_for": "Cost & Hiring Hub"
+    },
+    {
+      "type": "E-book",
+      "title": "EV Charger Installation Complete Guide",
+      "url": "/ev-charger-guide-download",
+      "related_articles": "EV Charger Installation Guide, Panel Upgrade Cost Guide",
+      "primary_keyword": "ev charger installation guide",
+      "volume": 580,
+      "target_profile": "Project Planner",
+      "lead_magnet_for": "EV charger content"
+    }
+  ],
+
+  "phases": [
+    {
+      "name": "Phase 1: Foundation",
+      "description": "Core infrastructure and pillar content to establish topical authority",
+      "deliverables": [
+        {
+          "priority": "P1",
+          "name": "Electrical Safety Pillar",
+          "type": "Article",
+          "why_it_matters": "Central hub for safety content cluster",
+          "dependencies": "None",
+          "success_metric": "Rank top 10 for 'home electrical safety'",
+          "owner": "Content Team"
+        },
+        {
+          "priority": "P1",
+          "name": "Electrician Cost Guide Pillar",
+          "type": "Article",
+          "why_it_matters": "Captures high-intent commercial traffic",
+          "dependencies": "None",
+          "success_metric": "Rank top 10 for 'electrician cost'",
+          "owner": "Content Team"
+        },
+        {
+          "priority": "P1",
+          "name": "Lead Capture System",
+          "type": "Infrastructure",
+          "why_it_matters": "Required for all lead generation",
+          "dependencies": "None",
+          "success_metric": "Forms live on all pages",
+          "owner": "Dev Team"
+        },
+        {
+          "priority": "P1",
+          "name": "Electrical Problems Pillar",
+          "type": "Article",
+          "why_it_matters": "Captures emergency search traffic",
+          "dependencies": "None",
+          "success_metric": "Rank top 10 for 'electrical problems'",
+          "owner": "Content Team"
+        }
+      ]
+    },
+    {
+      "name": "Phase 2: Core Content",
+      "description": "High-value supporting content to build out topic clusters",
+      "deliverables": [
+        {
+          "priority": "P2",
+          "name": "Panel Upgrade Cost Guide",
+          "type": "Article",
+          "why_it_matters": "High volume, high intent keyword",
+          "dependencies": "Electrical Upgrades Pillar",
+          "success_metric": "Rank top 5 for 'panel upgrade cost'",
+          "owner": "Content Team"
+        },
+        {
+          "priority": "P2",
+          "name": "Circuit Breaker Troubleshooting",
+          "type": "Article",
+          "why_it_matters": "Highest volume problem query",
+          "dependencies": "Electrical Problems Pillar",
+          "success_metric": "Rank top 5 for 'breaker keeps tripping'",
+          "owner": "Content Team"
+        },
+        {
+          "priority": "P2",
+          "name": "EV Charger Installation Guide",
+          "type": "Article",
+          "why_it_matters": "Growing demand, premium service",
+          "dependencies": "Electrical Upgrades Pillar",
+          "success_metric": "Rank top 10 for 'ev charger installation'",
+          "owner": "Content Team"
+        },
+        {
+          "priority": "P2",
+          "name": "Warning Signs Article",
+          "type": "Article",
+          "why_it_matters": "Supports safety pillar, high volume",
+          "dependencies": "Electrical Safety Pillar",
+          "success_metric": "Rank top 10 for 'electrical warning signs'",
+          "owner": "Content Team"
+        }
+      ]
+    },
+    {
+      "name": "Phase 3: Lead Magnets & Tools",
+      "description": "Interactive tools and downloadable content for lead capture",
+      "deliverables": [
+        {
+          "priority": "P2",
+          "name": "Electrical Cost Calculator",
+          "type": "Tool",
+          "why_it_matters": "High engagement lead capture",
+          "dependencies": "Cost guide content complete",
+          "success_metric": "100+ leads/month",
+          "owner": "Dev Team"
+        },
+        {
+          "priority": "P2",
+          "name": "Safety Assessment Quiz",
+          "type": "Tool",
+          "why_it_matters": "Segments leads by urgency",
+          "dependencies": "Safety pillar complete",
+          "success_metric": "50+ leads/month",
+          "owner": "Dev Team"
+        },
+        {
+          "priority": "P3",
+          "name": "Safety Checklist Download",
+          "type": "E-book",
+          "why_it_matters": "Low-friction lead magnet",
+          "dependencies": "Safety pillar complete",
+          "success_metric": "200+ downloads/month",
+          "owner": "Content Team"
+        },
+        {
+          "priority": "P3",
+          "name": "Electrical Upgrade Guide",
+          "type": "E-book",
+          "why_it_matters": "Premium lead magnet for planners",
+          "dependencies": "Upgrade content complete",
+          "success_metric": "100+ downloads/month",
+          "owner": "Content Team"
+        }
+      ]
+    },
+    {
+      "name": "Phase 4: Expansion & Optimization",
+      "description": "Additional content and continuous improvement",
+      "deliverables": [
+        {
+          "priority": "P3",
+          "name": "Remaining Supporting Articles",
+          "type": "Article",
+          "why_it_matters": "Complete topic coverage",
+          "dependencies": "All pillars complete",
+          "success_metric": "All clusters have 5+ articles",
+          "owner": "Content Team"
+        },
+        {
+          "priority": "P3",
+          "name": "Local Pricing Survey",
+          "type": "Research",
+          "why_it_matters": "Original data for link building",
+          "dependencies": "Cost guide complete",
+          "success_metric": "5+ backlinks earned",
+          "owner": "Content Team"
+        },
+        {
+          "priority": "P4",
+          "name": "Content Refresh Program",
+          "type": "Optimization",
+          "why_it_matters": "Maintain rankings over time",
+          "dependencies": "6 months of data",
+          "success_metric": "All pillars updated quarterly",
+          "owner": "Content Team"
+        },
+        {
+          "priority": "P4",
+          "name": "Video Content",
+          "type": "Optimization",
+          "why_it_matters": "Multi-format presence",
+          "dependencies": "Top performing articles identified",
+          "success_metric": "10 videos published",
+          "owner": "Content Team"
+        }
+      ]
+    }
+  ]
+}

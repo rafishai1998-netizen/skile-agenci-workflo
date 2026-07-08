@@ -1,0 +1,72 @@
+{
+  "brand_name": "Simple Business",
+  "subtitle": "Content Strategy Template",
+  "opportunity": "Brief description of market opportunity.",
+
+  "funnel": [
+    {"stage": "AWARENESS", "goal": "Attract prospects", "content": "Educational content", "cta": "Subscribe"},
+    {"stage": "CONSIDERATION", "goal": "Build trust", "content": "Comparison content", "cta": "Free Trial"},
+    {"stage": "DECISION", "goal": "Convert", "content": "Product content", "cta": "Buy Now"}
+  ],
+
+  "audiences": [
+    {"name": "Primary Audience", "percentage": "60%", "description": "Main target", "content_needs": "Educational"}
+  ],
+
+  "pillars": [
+    {"name": "Main Topic", "topics": "Subtopics here", "product": "Core Product", "conversion": "Main CTA"}
+  ],
+
+  "profiles": [
+    {
+      "name": "Primary Persona",
+      "percentage": "60%",
+      "description": "Description of primary target customer",
+      "demographics": "Age 30-50 | Income $50K+",
+      "pain_points": ["Pain 1", "Pain 2"],
+      "motivations": ["Motivation 1"],
+      "objections": ["Objection 1"],
+      "psychographic_factors": [
+        {"factor": "Risk Tolerance", "score": 3, "notes": "Moderate"},
+        {"factor": "Educational Investment", "score": 4, "notes": "Values learning"},
+        {"factor": "Available Resources", "score": 3, "notes": "Mid budget"},
+        {"factor": "Self-Direction", "score": 4, "notes": "DIY preference"},
+        {"factor": "Time Availability", "score": 2, "notes": "Busy"},
+        {"factor": "Patience Level", "score": 3, "notes": "Average"},
+        {"factor": "Technical Comfort", "score": 3, "notes": "Average"},
+        {"factor": "Decision Speed", "score": 3, "notes": "Moderate"}
+      ],
+      "authority_hook": "What converts this audience"
+    }
+  ],
+
+  "content_sections": [
+    {
+      "name": "Main Topic Hub",
+      "volume": "5,000+",
+      "description": "Core content cluster",
+      "items": [
+        {"type": "Pillar", "title": "Ultimate Guide to Topic", "url": "/guide", "primary_keyword": "main keyword", "secondary_keywords": "related keywords", "est_volume": 2400, "topical_volume": "5K+", "stage": "Awareness", "profile": "Primary Persona"},
+        {"type": "Supporting", "title": "How to Do Thing", "url": "/how-to", "primary_keyword": "how to keyword", "secondary_keywords": "related", "est_volume": 1200, "topical_volume": "", "stage": "Consideration", "profile": "Primary Persona"}
+      ]
+    }
+  ],
+
+  "tools": [
+    {"type": "Calculator", "name": "ROI Calculator", "url": "/calculator", "primary_keyword": "roi calculator", "volume": 880, "stage": "Consideration", "target_profile": "Primary Persona", "purpose": "Calculate potential ROI"}
+  ],
+
+  "ebooks": [
+    {"type": "Guide", "title": "Complete Guide", "url": "/guide-download", "related_articles": "Ultimate Guide", "primary_keyword": "guide download", "volume": 320, "target_profile": "Primary Persona", "lead_magnet_for": "Main content"}
+  ],
+
+  "phases": [
+    {
+      "name": "Phase 1: Foundation",
+      "description": "Build core content",
+      "deliverables": [
+        {"priority": "P1", "name": "Pillar Article", "type": "Article", "why_it_matters": "Core content", "dependencies": "None", "success_metric": "Top 10 ranking", "owner": "Content"}
+      ]
+    }
+  ]
+}
