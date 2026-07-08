@@ -1,12 +1,15 @@
 # Import Manifest
 
-Source branch: `import/repos-merge`
+Raw import branch: `import/repos-merge` (temporary; deleted from the remote after
+cleanup)
 
-Organized branch: `cleanup/import-structure`
+Published branch: `main`
+
+Cleanup staging branch: `cleanup/import-structure`
 
 The first import copied files from eight repositories into numbered folders.
 System files and exact duplicate files were skipped during the import. The
-cleanup branch moves those numbered folders under `sources/` and separates
+published branch moves those numbered folders under `sources/` and separates
 generated or tool-specific material under `archive/`.
 
 | # | Source repository | Source branch | Target folder | Copied files | Duplicate skips | System skips | Size |

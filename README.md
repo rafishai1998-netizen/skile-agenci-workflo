@@ -5,9 +5,11 @@ repositories for later review and normalization.
 
 ## Branches
 
-- `import/repos-merge` keeps the first raw import of the eight requested
-  repositories.
-- `cleanup/import-structure` organizes that import into a safer review shape.
+- `main` contains the organized clean import.
+- `import/repos-merge` was the temporary raw import branch and has been deleted
+  from the remote. If it appears in a local clone, delete or prune it.
+- `cleanup/import-structure` was the local staging branch used to prepare the
+  clean tree before publishing it to `main`.
 
 ## Layout
 
@@ -22,10 +24,10 @@ repositories for later review and normalization.
 ## Important Security Note
 
 The raw import contained a public-looking provider API key in a local MCP config
-file from `06-marketing-assets`. This cleanup branch removes that file and keeps
-only `.mcp.example.json`, but any exposed key must still be revoked or rotated at
-the provider. Do not treat the raw import branch as clean until it is deleted,
-replaced, or history-rewritten.
+file from `06-marketing-assets`. The published `main` branch removes that file
+and keeps only `.mcp.example.json`, but any exposed key must still be revoked or
+rotated at the provider. The temporary raw import branch has been deleted from
+the remote; prune it from any local clones or forks if it appears there.
 
 ## Recommended Next Pass
 
