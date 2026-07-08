@@ -8,9 +8,17 @@ __pycache__/
 .cache/
 .env
 .env.local
+.env.*
+!.env.example
 .mcp.json
+credentials.json
+token.json
 *.log
 dist/
 build/
+.next/
+coverage/
+tmp/
+temp/
 .DS_Store
 Thumbs.db
