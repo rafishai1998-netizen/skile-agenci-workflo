@@ -20,6 +20,33 @@ repositories for later review and normalization.
 - `docs/` contains cleanup, security, and asset handling notes.
 - `IMPORT_MANIFEST.md` records source repositories, branches, import sizes, and
   duplicate/system-file skips.
+- `active/` is the future home for reviewed skills, agents, prompts, workflows,
+  and templates. It is intentionally empty until items pass promotion rules.
+- `rafish-use-cases/` groups practical RaFish work areas such as PrestaShop,
+  Allegro/BaseLinker, Gmail/Drive, graphics, marketing, support, and research.
+- `reference/` is for Claude-only, Rube/Composio, ProofPilot, template, asset,
+  and outlier material that is useful but not active.
+- `decisions/` records cleanup and promotion policy decisions.
+
+## Current Classification
+
+Stage 4 classifies the repo by working type before promotion:
+
+- skills,
+- agents,
+- prompts,
+- workflows,
+- templates,
+- assets,
+- reference-only material,
+- generated/cache material.
+
+Start with:
+
+- `catalog/repo-type-map.md`
+- `catalog/usefulness-matrix.md`
+- `catalog/promotion-candidates-stage-4.md`
+- `docs/stage-4-usefulness-classification.md`
 
 ## Important Security Note
 
@@ -31,9 +58,9 @@ the remote; prune it from any local clones or forks if it appears there.
 
 ## Recommended Next Pass
 
-1. Review `catalog/` to decide which skills, agents, and prompts should become
-   first-class project content.
-2. Move large binary media to Git LFS or external storage before merging into a
-   long-lived branch.
-3. Normalize naming, metadata, licensing notes, and README files after the clean
-   import is approved.
+1. Pick one RaFish use case.
+2. Promote one small reviewed item into `active/`.
+3. Add source, validation, status, tool requirements, license/provenance, and a
+   usage example.
+4. Keep broad imported catalogs in `sources/` until specific items are adapted.
+5. Decide WebsitePilot media policy before promoting heavy templates.

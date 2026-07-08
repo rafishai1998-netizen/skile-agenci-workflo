@@ -17,6 +17,10 @@ as a small standalone unit.
 
 Current stage 3 status: no imported item has been promoted yet.
 
+Current stage 4 status: `active/` remains empty except README and placeholder
+files. Subfolder README files now define the promotion expectations for skills,
+agents, prompts, workflows, and templates.
+
 ## Folders
 
 - `skills/` - reviewed skills only.
@@ -25,3 +29,5 @@ Current stage 3 status: no imported item has been promoted yet.
 - `workflows/` - reviewed workflows only; GitHub workflows require security
   review before any activation.
 - `templates/` - reviewed reusable templates only.
+
+First candidates are tracked in `catalog/promotion-candidates-stage-4.md`.

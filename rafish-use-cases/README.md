@@ -25,3 +25,13 @@ Each subfolder uses the same structure:
 
 Stage 3 creates the map only. It does not promote imported content into
 `active/`.
+
+Stage 4 links this practical map to the repository classification. Use
+`catalog/usefulness-matrix.md` and `catalog/promotion-candidates-stage-4.md` to
+choose which small item should be adapted first for each RaFish area.
+
+Recommended first areas:
+
+- `marketing-opisy/`
+- `obsluga-klienta/`
+- `prestashop/`

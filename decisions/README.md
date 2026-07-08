@@ -12,3 +12,6 @@ Current stage 3 decision files:
 
 Decision notes should prefer `pending-user-decision` when evidence is not strong
 enough for removal or promotion.
+
+Stage 4 adds classification docs in `catalog/` but does not make final removal
+decisions. Promotion choices should still follow `promotion-rules.md`.
