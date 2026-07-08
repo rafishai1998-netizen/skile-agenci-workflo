@@ -96,3 +96,38 @@ Suggested commit message:
 
 Do not combine deletion cleanup with Codex-ready promotion in the same commit.
 Do not optimize repo size for its own sake; prioritize accurate classification.
+
+## Stage 2 Execution Result
+
+Branch: `cleanup/remove-confirmed-cache-stage-2`
+
+Executed scope:
+
+- Checked `archive/tool-cache/proofpilot-agents/firecrawl`.
+- Searched for path-level dependencies outside the cache directory and outside
+  stage documentation.
+- Removed only `archive/tool-cache/proofpilot-agents/firecrawl` after finding no
+  real dependency on the cache path.
+- Kept `archive/generated-output/proofpilot-agents/websitepilot-workspaces`.
+- Kept all eight large WebsitePilot `.mp4` files.
+- Did not edit, move, or delete anything under `sources/`.
+
+Firecrawl cache dependency notes:
+
+- `IMPORT_MANIFEST.md` documents that the cache was previously moved into
+  `archive/tool-cache/proofpilot-agents/firecrawl`.
+- Source files mention related domains such as `voltvikings.com`,
+  `anomalypoolservices.io`, and `kingswoodlandscape.com`, but those are
+  inspiration/source-domain references, not path dependencies on the archived
+  cache directory.
+
+Documents added in stage 2:
+
+- `docs/generated-output-review-stage-2.md`
+- `docs/websitepilot-media-decision.md`
+- `docs/functional-duplicates-review-table.md`
+- `docs/security-cleanup-stage-2.md`
+- `docs/sparse-sources-review-stage-2.md`
+
+Stage 2 intentionally did not promote skills, create `active/`, add GitHub
+Actions, move media to Git LFS, or normalize imported files in `sources/`.
